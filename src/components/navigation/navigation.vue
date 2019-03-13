@@ -2,19 +2,24 @@
     <nav class="c-nav">
         <ul>
             <li>
-                <a href="#">About</a>
+                <router-link to="/">Home</router-link>
             </li>
             <li>
-                <a href="#">Cliets</a>
+                <router-link to="/about">About</router-link>
             </li>
             <li>
-                <a href="#">Team</a>
+                <router-link to="/services">Services</router-link>
             </li>
             <li>
-                <a href="#">Contact</a>
+                <router-link to="/team">Team</router-link>
+            </li>
+            <li>
+                <router-link to="/contact">Contact</router-link>
             </li>
         </ul>
     </nav>
+
+    <!-- /.o-shell -->
 </template>
 
 <script>
@@ -22,25 +27,49 @@
 </script>
 
 
-<style scoped>
-    .c-nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        padding: 0;
+<style lang="scss" >
+    .o-shell {
+        padding: 0 1rem;
     }
+    .c-nav {
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            padding: 0;
 
-    li {
-        list-style-type: none;
-        padding-left: 30px;
-    }
+            li {
+                list-style-type: none;
+                padding-left: 30px;
 
-    a {
-        text-decoration: none;
-    }
+                a {
+                    text-decoration: none;
+                    color: white;
 
-    a:hover {
-        opacity: 0.5;
+                    &:hover {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+
+        &--socials {
+            ul {
+                display: flex;
+                flex-direction: row;
+                flex: 0 0 33%;
+
+                li {
+                    list-style-type: none;
+                    padding-left: 1.875rem;
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
     }
 </style>
 

@@ -1,10 +1,13 @@
 <template>
     <header class="c-header">
-        <a href="#" class="c-logo">
-            <img src="../../assets/logo.png" alt>
-        </a>
+        <div class="o-shell">
+            <a href="#" class="c-logo">
+                <img src="../../assets/logo.png" alt>
+            </a>
 
-        <Navigation/>
+            <Navigation/>
+        </div>
+        <!-- /.o-shell -->
     </header>
 </template>
 
@@ -18,15 +21,23 @@
     };
 </script>
 
-<style >
+<style lang="scss" >
     .c-header {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 1.875rem;
+        .o-shell {
+            padding: 1.875rem 1rem 0 1rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: rgb(184, 184, 184);
+        }
     }
 
     .c-logo img {
-        width: 60px;
+        width: 3.75rem;
+    }
+
+    .c-nav {
+        align-self: center;
     }
 </style>
 
