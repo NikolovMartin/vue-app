@@ -1,45 +1,21 @@
 <template>
     <div class="o-shell">
-        <Header/>
-        <Footer/>
+        <div class="c-content">
+            <h1>This is content</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor facilis iste distinctio fugiat ratione nesciunt quaerat at, quos aspernatur optio sit, id, repellendus ducimus vel accusantium est beatae suscipit minus.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptas tempora nemo rerum nulla rem ipsum sed animi repellendus molestiae adipisci eius cum unde quibusdam earum exercitationem, quas esse placeat.</p>
+        </div>
+        <!-- /.c-content -->
     </div>
-    <!-- /.o-shell -->
 </template>
 
 <script>
-    import Header from "../components/header/header.vue";
-    import Footer from "../components/footer/footer.vue";
-
     export default {
-        components: {
-            Header,
-            Footer
-        }
+        components: {}
     };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-    h3 {
-        margin: 40px 0 0;
-    }
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    li {
-        display: inline-block;
-        margin: 0 10px;
-    }
-    a {
-        color: #42b983;
-    }
-
-    .o-shell {
-        padding: 0 1rem;
-
-        .c-header {
-            background-color: red;
-        }
-    }
+<style lang="scss" scoped>
 </style>
