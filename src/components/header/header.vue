@@ -23,12 +23,18 @@
 
 <style lang="scss" >
     .c-header {
+        background-color: #333;
+        padding: 1rem 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+
         .o-shell {
-            padding: 1.875rem 1rem 0 1rem;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            background-color: rgb(184, 184, 184);
         }
     }
 

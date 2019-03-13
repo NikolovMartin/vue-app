@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)http://localhost:8081/#/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="http://localhost:8081/favicon.ico">
+    <title>vue-app</title>
+  <link href="./vue-app_files/app.js" rel="preload" as="script"><style type="text/css">.o-shell {
+  padding: 0 1rem;
+}
+.c-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0;
+}
+.c-nav ul li {
+    list-style-type: none;
+    padding-left: 30px;
+}
+.c-nav ul li a {
+      text-decoration: none;
+      color: white;
+}
+.c-nav ul li a:hover {
+        opacity: 0.5;
+}
+.c-nav--socials ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33%;
+          flex: 0 0 33%;
+}
+.c-nav--socials ul li {
+    list-style-type: none;
+    padding-left: 1.875rem;
+}
+.c-nav--socials ul li a {
+      text-decoration: none;
+      color: black;
+}
+</style><style type="text/css">.c-header .o-shell {
+  padding: 1.875rem 1rem 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #b8b8b8;
+}
+.c-logo img {
+  width: 3.75rem;
+}
+.c-nav {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+</style><style type="text/css">.c-footer[data-v-278c512f] {
+  padding: 2rem 0;
+  background-color: #cccbcb;
+}
+.c-footer .o-shell[data-v-278c512f] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+</style><style type="text/css">
+body {
+    margin: 0;
+}
+#app {
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    background-color: rgb(252, 242, 230);
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+}
+.o-wrapper {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+</style><style type="text/css">.o-shell {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+.c-content {
+  display: block;
+}
+.c-content h1 {
+    text-align: left;
+}
+</style><style type="text/css"></style><style type="text/css">.pixelParallel-panel[data-v-54cb82b4]{position:fixed;right:10px;bottom:10px;z-index:2147483647;width:375px;height:265px;transform:translate(0);background:#fff;transition:width .2s ease-out,height .2s ease-out;will-change:top,left,width,height,transform;opacity:0}.pixelParallel-panel-inner[data-v-54cb82b4]{position:relative;overflow:hidden;height:100%;border:1px solid #dddedf;box-shadow:0 2px 10px rgba(0,0,0,.1);box-sizing:border-box}.pixelParallel-panel-handle[data-v-54cb82b4]{position:absolute;top:-10px;right:-10px;z-index:3;width:20px;height:20px;background:red;transform:rotate(45deg);background:linear-gradient(0deg,transparent,transparent 50%,#ccc 0,#ccc);background-size:100% 2px;cursor:move}.pixelParallel-panel-isolator[data-v-54cb82b4]{border:0;width:100%;height:100%;overflow:hidden;position:relative}.pixelParallel-panel-dragging .pixelParallel-panel-inner[data-v-54cb82b4]{pointer-events:none}.pixelParallel-panel-minimized[data-v-54cb82b4]{width:112px;height:50px;transition:width .2s ease-out .15s,height .2s ease-out .15s}@media (max-width:395px){.pixelParallel-panel[data-v-54cb82b4]{right:0;bottom:0;width:320px}.pixelParallel-panel-minimized[data-v-54cb82b4]{width:112px}}</style><style type="text/css">.pixelParallel-overlay{position:absolute;left:0;top:0;width:100%;text-align:center;white-space:nowrap;display:none}.pixelParallel-overlay-enabled{display:block}</style><style type="text/css">.pixelParallel-image-outer{visibility:hidden;position:absolute;top:0;left:0;width:100%;overflow:hidden;max-width:100vw;min-height:100vh}.pixelParallel-image-inner{position:absolute;z-index:2147483646;left:50%;top:0;cursor:move;transform:translateX(-50%);transition:opacity .15s}.pixelParallel-image-inner img{width:auto;height:auto;max-width:none;max-height:none;vertical-align:top;margin:0;padding:0;position:relative;transform-origin:50% 0;top:-1px;border:1px dashed #333}.pixelParallel-image-inner img:not([src]),.pixelParallel-image-inner img[src=""]{visibility:hidden}.pixelParallel-image-enabled{visibility:visible}.pixelParallel-image-difference{mix-blend-mode:difference}.pixelParallel-image-difference img{opacity:1!important}.pixelParallel-image-locked,.pixelParallel-image-no-image{pointer-events:none}.pixelParallel-image-locked .pixelParallel-image-inner img{top:0;border:0 none}</style><style type="text/css">.pixelParallel-grids{position:relative;z-index:2147483646;pointer-events:none}.pixelParallel-grid-horizontal,.pixelParallel-grid-vertical{position:fixed;z-index:1;pointer-events:none;visibility:hidden}.pixelParallel-grid-horizontal{top:50%;left:50%;display:table;width:100vw;height:200vh;opacity:.5;table-layout:fixed;border-spacing:30px;transform:translate(-50%,-50%)}.pixelParallel-grid-horizontal span{display:table-cell;background:red;height:200vh}.pixelParallel-grid-vertical{top:0;left:0;width:100%;height:100%;background:linear-gradient(180deg,transparent,transparent 90%,blue 0,blue);background-size:100% 10px;opacity:.5}.pixelParallel-grid-horizontal-enabled,.pixelParallel-grid-vertical-enabled{visibility:visible}</style><style type="text/css">.pixelParallel-rulers{position:relative;z-index:2147483646}.pixelParallel-ruler-x,.pixelParallel-ruler-y{display:none;position:fixed;top:0;left:0;z-index:2;background:cyan}.pixelParallel-ruler-x:after,.pixelParallel-ruler-y:after{content:"";position:absolute;top:-8px;left:-8px;right:0;bottom:0;padding:10px}.pixelParallel-ruler-x{right:0;height:1px;cursor:row-resize}.pixelParallel-ruler-y{bottom:0;width:1px;cursor:col-resize}.pixelParallel-rulers-enabled .pixelParallel-ruler-x,.pixelParallel-rulers-enabled .pixelParallel-ruler-y{display:block}</style></head>
+  <body cz-shortcut-listen="true">
+    <noscript>
+      <strong>We're sorry but vue-app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div class="o-wrapper"><div id="app"><header class="c-header"><div class="o-shell"><a href="http://localhost:8081/#" class="c-logo"><img src="./vue-app_files/logo.82b9c7a5.png" alt=""></a><nav class="c-nav"><ul><li><a href="http://localhost:8081/#/" class="router-link-exact-active router-link-active">Home</a></li><li><a href="http://localhost:8081/#/about" class="">About</a></li><li><a href="http://localhost:8081/#/services" class="">Services</a></li><li><a href="http://localhost:8081/#/team" class="">Team</a></li><li><a href="http://localhost:8081/#/contact" class="">Contact</a></li></ul></nav></div></header><div class="content"><div data-v-e5919cba="" class="o-shell"><div data-v-e5919cba="" class="c-content"><h1 data-v-e5919cba="">This is content</h1><p data-v-e5919cba="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor facilis iste distinctio fugiat ratione nesciunt quaerat at, quos aspernatur optio sit, id, repellendus ducimus vel accusantium est beatae suscipit minus.</p><p data-v-e5919cba="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptas tempora nemo rerum nulla rem ipsum sed animi repellendus molestiae adipisci eius cum unde quibusdam earum exercitationem, quas esse placeat.</p></div></div></div><footer data-v-278c512f="" class="c-footer"><div data-v-278c512f="" class="o-shell"><a data-v-278c512f="" href="http://localhost:8081/#" class="c-logo"><img data-v-278c512f="" src="./vue-app_files/logo.82b9c7a5.png" alt=""></a><nav data-v-278c512f="" class="c-nav c-nav--footer"><ul><li><a href="http://localhost:8081/#/" class="router-link-exact-active router-link-active">Home</a></li><li><a href="http://localhost:8081/#/about" class="">About</a></li><li><a href="http://localhost:8081/#/services" class="">Services</a></li><li><a href="http://localhost:8081/#/team" class="">Team</a></li><li><a href="http://localhost:8081/#/contact" class="">Contact</a></li></ul></nav><nav data-v-278c512f="" class="c- nav c-nav--socials"><ul data-v-278c512f=""><li data-v-278c512f=""><a data-v-278c512f="" href="http://localhost:8081/#">Facebook</a></li><li data-v-278c512f=""><a data-v-278c512f="" href="http://localhost:8081/#">Twitter</a></li><li data-v-278c512f=""><a data-v-278c512f="" href="http://localhost:8081/#">Instagram</a></li></ul></nav></div></footer></div></div>
+    <!-- built files will be auto injected -->
+  <script type="text/javascript" src="./vue-app_files/app.js"></script>
+
+</body></html>

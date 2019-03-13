@@ -35,19 +35,28 @@
     }
 
     #app {
-        font-family: "Avenir", Helvetica, Arial, sans-serif;
+        font-family: "Roboto", sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: #2c3e50;
-        background-color: rgb(252, 242, 230);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+            url(./assets/sun.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
         height: 100vh;
         display: flex;
         flex-direction: column;
+        position: relative;
+        z-index: 5;
+        padding-top: 100px;
     }
 
     .content {
         flex: 1 0 auto;
+        position: relative;
+        z-index: 10;
     }
 
     .o-wrapper {

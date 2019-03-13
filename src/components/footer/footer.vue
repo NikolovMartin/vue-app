@@ -37,7 +37,7 @@
 <style lang="scss" scoped>
     .c-footer {
         padding: 2rem 0;
-        background-color: rgb(204, 203, 203);
+        background-color: #333;
 
         .o-shell {
             display: flex;
