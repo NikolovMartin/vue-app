@@ -1,11 +1,9 @@
 <template>
-    <div class="hello">
-        <div class="o-shell">
-            <Header/>
-            <Footer/>
-        </div>
-        <!-- /.o-shell -->
+    <div class="o-shell">
+        <Header/>
+        <Footer/>
     </div>
+    <!-- /.o-shell -->
 </template>
 
 <script>
@@ -39,5 +37,9 @@
 
     .o-shell {
         padding: 0 1rem;
+
+        .c-header {
+            background-color: red;
+        }
     }
 </style>

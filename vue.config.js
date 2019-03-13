@@ -1,8 +1,7 @@
 module.exports = {
-  pluginOptions: {
-    'style-resources-loader': {
-      preProcessor: 'sass',
-      patterns: []
-    }
-  }
-}
+	pluginOptions: {
+		'style-resources-loader': {
+			preProcessor: 'scss'
+		}
+	}
+};
